@@ -2,7 +2,7 @@ local hotkey = require "hs.hotkey"
 local caffeinate = require "hs.caffeinate"
 local audiodevice = require "hs.audiodevice"
 
-hotkey.bind({'ctrl', 'alt', 'cmd'}, "L", function()
+hotkey.bind({'ctrl', 'alt', 'cmd'}, "W", function()
   caffeinate.lockScreen()
   -- caffeinate.startScreensaver()
 end)
