@@ -15,7 +15,7 @@ applist = {
     {shortcut = 'Y',appname = 'Activity Monitor'},
     {shortcut = 'S',appname = 'System Preferences'},
     {shortcut = 'E',appname = 'Emacs'},
-    {shortcut = 'H',appname = '百度Hi'},
+    {shortcut = 'H',appname = '如流'},
     {shortcut = "L",appname = 'Launchpad'}
 }
 
