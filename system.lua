@@ -2,10 +2,11 @@ local hotkey = require "hs.hotkey"
 local caffeinate = require "hs.caffeinate"
 local audiodevice = require "hs.audiodevice"
 
-hotkey.bind({'ctrl', 'alt', 'cmd'}, "W", function()
-  caffeinate.lockScreen()
-  -- caffeinate.startScreensaver()
-end)
+-- 使用系统锁屏快捷键 Ctrl+Command+q
+-- hotkey.bind({'ctrl', 'alt', 'cmd'}, "W", function()
+--   caffeinate.lockScreen()
+--   -- caffeinate.startScreensaver()
+-- end)
 
 -- mute on sleep
 function muteOnWake(eventType)
